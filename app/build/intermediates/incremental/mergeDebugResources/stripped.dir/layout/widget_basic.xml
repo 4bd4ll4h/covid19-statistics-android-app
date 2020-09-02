@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadow"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/liner">
+            <ImageView
+                android:id="@+id/countryImg"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_1f30d_africa_europe"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/country"
+                android:layout_toEndOf="@id/countryImg"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:scrollHorizontally="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                tools:text="Sudan" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/liner"
+                >
+        <ImageView
+            android:id="@+id/imgHeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/num1"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_2764_healed"/>
+
+                <TextView
+                    android:id="@+id/num1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="2,000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_margin="8dp"
+            android:gravity="end"
+            android:layout_columnWeight="1"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/liner2">
+                <ImageView
+                    android:id="@+id/countryImg2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_1f30d_africa_europe"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/country2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                    android:text="Global" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/liner2"
+                >
+
+                <ImageView
+                    android:id="@+id/imgHeal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/num2"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_2764_healed"/>
+
+                <TextView
+                    android:id="@+id/num2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2,000"
+                    android:layout_centerVertical="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+</GridLayout>

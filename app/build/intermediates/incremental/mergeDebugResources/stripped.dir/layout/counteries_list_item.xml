@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                 
+                                                        
+
+    
+                 
+                       
+                                                      
+
+           
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp" android:tag="layout/counteries_list_item_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tool="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/flagImg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="0dp"
+                android:layout_margin="0dp"
+                android:tag="binding_1"  
+                tool:src="@drawable/ic_1f1e6_1f1f8"/>
+            <TextView
+                android:id="@+id/countryname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/flagImg"
+                android:layout_marginTop="6dp"
+                android:tag="binding_2"       
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                tool:text="Sudan"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countryname"
+                android:layout_toEndOf="@id/flagImg"
+                android:tag="binding_3"  
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tool:text="SD"/>
+        </RelativeLayout>
+    </FrameLayout>
+         
