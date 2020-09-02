@@ -1,0 +1,1292 @@
+[
+ {
+   "Country": "flag: Ascension Island",
+   "CountryCode": "AC, flag",
+   "unicode": "1F1E6-1F1E8"
+ },
+ {
+   "Country": "flag: Andorra",
+   "CountryCode": "AD, flag",
+   "unicode": "1F1E6-1F1E9"
+ },
+ {
+   "Country": "flag: United Arab Emirates",
+   "CountryCode": "AE, flag",
+   "unicode": "1F1E6-1F1EA"
+ },
+ {
+   "Country": "flag: Afghanistan",
+   "CountryCode": "AF, flag",
+   "unicode": "1F1E6-1F1EB"
+ },
+ {
+   "Country": "flag: Antigua & Barbuda",
+   "CountryCode": "AG, flag",
+   "unicode": "1F1E6-1F1EC"
+ },
+ {
+   "Country": "flag: Anguilla",
+   "CountryCode": "AI, flag",
+   "unicode": "1F1E6-1F1EE"
+ },
+ {
+   "Country": "flag: Albania",
+   "CountryCode": "AL, flag",
+   "unicode": "1F1E6-1F1F1"
+ },
+ {
+   "Country": "flag: Armenia",
+   "CountryCode": "AM, flag",
+   "unicode": "1F1E6-1F1F2"
+ },
+ {
+   "Country": "flag: Angola",
+   "CountryCode": "AO, flag",
+   "unicode": "1F1E6-1F1F4"
+ },
+ {
+   "Country": "flag: Antarctica",
+   "CountryCode": "AQ, flag",
+   "unicode": "1F1E6-1F1F6"
+ },
+ {
+   "Country": "flag: Argentina",
+   "CountryCode": "AR, flag",
+   "unicode": "1F1E6-1F1F7"
+ },
+ {
+   "Country": "flag: American Samoa",
+   "CountryCode": "AS, flag",
+   "unicode": "1F1E6-1F1F8"
+ },
+ {
+   "Country": "flag: Austria",
+   "CountryCode": "AT, flag",
+   "unicode": "1F1E6-1F1F9"
+ },
+ {
+   "Country": "flag: Australia",
+   "CountryCode": "AU, flag",
+   "unicode": "1F1E6-1F1FA"
+ },
+ {
+   "Country": "flag: Aruba",
+   "CountryCode": "AW, flag",
+   "unicode": "1F1E6-1F1FC"
+ },
+ {
+   "Country": "flag: Åland Islands",
+   "CountryCode": "AX, flag",
+   "unicode": "1F1E6-1F1FD"
+ },
+ {
+   "Country": "flag: Azerbaijan",
+   "CountryCode": "AZ, flag",
+   "unicode": "1F1E6-1F1FF"
+ },
+ {
+   "Country": "flag: Bosnia & Herzegovina",
+   "CountryCode": "BA, flag",
+   "unicode": "1F1E7-1F1E6"
+ },
+ {
+   "Country": "flag: Barbados",
+   "CountryCode": "BB, flag",
+   "unicode": "1F1E7-1F1E7"
+ },
+ {
+   "Country": "flag: Bangladesh",
+   "CountryCode": "BD, flag",
+   "unicode": "1F1E7-1F1E9"
+ },
+ {
+   "Country": "flag: Belgium",
+   "CountryCode": "BE, flag",
+   "unicode": "1F1E7-1F1EA"
+ },
+ {
+   "Country": "flag: Burkina Faso",
+   "CountryCode": "BF, flag",
+   "unicode": "1F1E7-1F1EB"
+ },
+ {
+   "Country": "flag: Bulgaria",
+   "CountryCode": "BG, flag",
+   "unicode": "1F1E7-1F1EC"
+ },
+ {
+   "Country": "flag: Bahrain",
+   "CountryCode": "BH, flag",
+   "unicode": "1F1E7-1F1ED"
+ },
+ {
+   "Country": "flag: Burundi",
+   "CountryCode": "BI, flag",
+   "unicode": "1F1E7-1F1EE"
+ },
+ {
+   "Country": "flag: Benin",
+   "CountryCode": "BJ, flag",
+   "unicode": "1F1E7-1F1EF"
+ },
+ {
+   "Country": "flag: St. Barthélemy",
+   "CountryCode": "BL, flag",
+   "unicode": "1F1E7-1F1F1"
+ },
+ {
+   "Country": "flag: Bermuda",
+   "CountryCode": "BM, flag",
+   "unicode": "1F1E7-1F1F2"
+ },
+ {
+   "Country": "flag: Brunei",
+   "CountryCode": "BN, flag",
+   "unicode": "1F1E7-1F1F3"
+ },
+ {
+   "Country": "flag: Bolivia",
+   "CountryCode": "BO, flag",
+   "unicode": "1F1E7-1F1F4"
+ },
+ {
+   "Country": "flag: Caribbean Netherlands",
+   "CountryCode": "BQ, flag",
+   "unicode": "1F1E7-1F1F6"
+ },
+ {
+   "Country": "flag: Brazil",
+   "CountryCode": "BR, flag",
+   "unicode": "1F1E7-1F1F7"
+ },
+ {
+   "Country": "flag: Bahamas",
+   "CountryCode": "BS, flag",
+   "unicode": "1F1E7-1F1F8"
+ },
+ {
+   "Country": "flag: Bhutan",
+   "CountryCode": "BT, flag",
+   "unicode": "1F1E7-1F1F9"
+ },
+ {
+   "Country": "flag: Bouvet Island",
+   "CountryCode": "BV, flag",
+   "unicode": "1F1E7-1F1FB"
+ },
+ {
+   "Country": "flag: Botswana",
+   "CountryCode": "BW, flag",
+   "unicode": "1F1E7-1F1FC"
+ },
+ {
+   "Country": "flag: Belarus",
+   "CountryCode": "BY, flag",
+   "unicode": "1F1E7-1F1FE"
+ },
+ {
+   "Country": "flag: Belize",
+   "CountryCode": "BZ, flag",
+   "unicode": "1F1E7-1F1FF"
+ },
+ {
+   "Country": "flag: Canada",
+   "CountryCode": "CA, flag",
+   "unicode": "1F1E8-1F1E6"
+ },
+ {
+   "Country": "flag: Cocos (Keeling) Islands",
+   "CountryCode": "CC, flag",
+   "unicode": "1F1E8-1F1E8"
+ },
+ {
+   "Country": "flag: Congo - Kinshasa",
+   "CountryCode": "CD, flag",
+   "unicode": "1F1E8-1F1E9"
+ },
+ {
+   "Country": "flag: Central African Republic",
+   "CountryCode": "CF, flag",
+   "unicode": "1F1E8-1F1EB"
+ },
+ {
+   "Country": "flag: Congo - Brazzaville",
+   "CountryCode": "CG, flag",
+   "unicode": "1F1E8-1F1EC"
+ },
+ {
+   "Country": "flag: Switzerland",
+   "CountryCode": "CH, flag",
+   "unicode": "1F1E8-1F1ED"
+ },
+ {
+   "Country": "flag: Côte d’Ivoire",
+   "CountryCode": "CI, flag",
+   "unicode": "1F1E8-1F1EE"
+ },
+ {
+   "Country": "flag: Cook Islands",
+   "CountryCode": "CK, flag",
+   "unicode": "1F1E8-1F1F0"
+ },
+ {
+   "Country": "flag: Chile",
+   "CountryCode": "CL, flag",
+   "unicode": "1F1E8-1F1F1"
+ },
+ {
+   "Country": "flag: Cameroon",
+   "CountryCode": "CM, flag",
+   "unicode": "1F1E8-1F1F2"
+ },
+ {
+   "Country": "flag: China",
+   "CountryCode": "CN, flag",
+   "unicode": "1F1E8-1F1F3"
+ },
+ {
+   "Country": "flag: Colombia",
+   "CountryCode": "CO, flag",
+   "unicode": "1F1E8-1F1F4"
+ },
+ {
+   "Country": "flag: Clipperton Island",
+   "CountryCode": "CP, flag",
+   "unicode": "1F1E8-1F1F5"
+ },
+ {
+   "Country": "flag: Costa Rica",
+   "CountryCode": "CR, flag",
+   "unicode": "1F1E8-1F1F7"
+ },
+ {
+   "Country": "flag: Cuba",
+   "CountryCode": "CU, flag",
+   "unicode": "1F1E8-1F1FA"
+ },
+ {
+   "Country": "flag: Cape Verde",
+   "CountryCode": "CV, flag",
+   "unicode": "1F1E8-1F1FB"
+ },
+ {
+   "Country": "flag: Curaçao",
+   "CountryCode": "CW, flag",
+   "unicode": "1F1E8-1F1FC"
+ },
+ {
+   "Country": "flag: Christmas Island",
+   "CountryCode": "CX, flag",
+   "unicode": "1F1E8-1F1FD"
+ },
+ {
+   "Country": "flag: Cyprus",
+   "CountryCode": "CY, flag",
+   "unicode": "1F1E8-1F1FE"
+ },
+ {
+   "Country": "flag: Czechia",
+   "CountryCode": "CZ, flag",
+   "unicode": "1F1E8-1F1FF"
+ },
+ {
+   "Country": "flag: Germany",
+   "CountryCode": "DE, flag",
+   "unicode": "1F1E9-1F1EA"
+ },
+ {
+   "Country": "flag: Diego Garcia",
+   "CountryCode": "DG, flag",
+   "unicode": "1F1E9-1F1EC"
+ },
+ {
+   "Country": "flag: Djibouti",
+   "CountryCode": "DJ, flag",
+   "unicode": "1F1E9-1F1EF"
+ },
+ {
+   "Country": "flag: Denmark",
+   "CountryCode": "DK, flag",
+   "unicode": "1F1E9-1F1F0"
+ },
+ {
+   "Country": "flag: Dominica",
+   "CountryCode": "DM, flag",
+   "unicode": "1F1E9-1F1F2"
+ },
+ {
+   "Country": "flag: Dominican Republic",
+   "CountryCode": "DO, flag",
+   "unicode": "1F1E9-1F1F4"
+ },
+ {
+   "Country": "flag: Algeria",
+   "CountryCode": "DZ, flag",
+   "unicode": "1F1E9-1F1FF"
+ },
+ {
+   "Country": "flag: Ceuta & Melilla",
+   "CountryCode": "EA, flag",
+   "unicode": "1F1EA-1F1E6"
+ },
+ {
+   "Country": "flag: Ecuador",
+   "CountryCode": "EC, flag",
+   "unicode": "1F1EA-1F1E8"
+ },
+ {
+   "Country": "flag: Estonia",
+   "CountryCode": "EE, flag",
+   "unicode": "1F1EA-1F1EA"
+ },
+ {
+   "Country": "flag: Egypt",
+   "CountryCode": "EG, flag",
+   "unicode": "1F1EA-1F1EC"
+ },
+ {
+   "Country": "flag: Western Sahara",
+   "CountryCode": "EH, flag",
+   "unicode": "1F1EA-1F1ED"
+ },
+ {
+   "Country": "flag: Eritrea",
+   "CountryCode": "ER, flag",
+   "unicode": "1F1EA-1F1F7"
+ },
+ {
+   "Country": "flag: Spain",
+   "CountryCode": "ES, flag",
+   "unicode": "1F1EA-1F1F8"
+ },
+ {
+   "Country": "flag: Ethiopia",
+   "CountryCode": "ET, flag",
+   "unicode": "1F1EA-1F1F9"
+ },
+ {
+   "Country": "flag: European Union",
+   "CountryCode": "EU, flag",
+   "unicode": "1F1EA-1F1FA"
+ },
+ {
+   "Country": "flag: Finland",
+   "CountryCode": "FI, flag",
+   "unicode": "1F1EB-1F1EE"
+ },
+ {
+   "Country": "flag: Fiji",
+   "CountryCode": "FJ, flag",
+   "unicode": "1F1EB-1F1EF"
+ },
+ {
+   "Country": "flag: Falkland Islands",
+   "CountryCode": "FK, flag",
+   "unicode": "1F1EB-1F1F0"
+ },
+ {
+   "Country": "flag: Micronesia",
+   "CountryCode": "FM, flag",
+   "unicode": "1F1EB-1F1F2"
+ },
+ {
+   "Country": "flag: Faroe Islands",
+   "CountryCode": "FO, flag",
+   "unicode": "1F1EB-1F1F4"
+ },
+ {
+   "Country": "flag: France",
+   "CountryCode": "FR, flag",
+   "unicode": "1F1EB-1F1F7"
+ },
+ {
+   "Country": "flag: Gabon",
+   "CountryCode": "GA, flag",
+   "unicode": "1F1EC-1F1E6"
+ },
+ {
+   "Country": "flag: United Kingdom",
+   "CountryCode": "GB, flag",
+   "unicode": "1F1EC-1F1E7"
+ },
+ {
+   "Country": "flag: Grenada",
+   "CountryCode": "GD, flag",
+   "unicode": "1F1EC-1F1E9"
+ },
+ {
+   "Country": "flag: Georgia",
+   "CountryCode": "GE, flag",
+   "unicode": "1F1EC-1F1EA"
+ },
+ {
+   "Country": "flag: French Guiana",
+   "CountryCode": "GF, flag",
+   "unicode": "1F1EC-1F1EB"
+ },
+ {
+   "Country": "flag: Guernsey",
+   "CountryCode": "GG, flag",
+   "unicode": "1F1EC-1F1EC"
+ },
+ {
+   "Country": "flag: Ghana",
+   "CountryCode": "GH, flag",
+   "unicode": "1F1EC-1F1ED"
+ },
+ {
+   "Country": "flag: Gibraltar",
+   "CountryCode": "GI, flag",
+   "unicode": "1F1EC-1F1EE"
+ },
+ {
+   "Country": "flag: Greenland",
+   "CountryCode": "GL, flag",
+   "unicode": "1F1EC-1F1F1"
+ },
+ {
+   "Country": "flag: Gambia",
+   "CountryCode": "GM, flag",
+   "unicode": "1F1EC-1F1F2"
+ },
+ {
+   "Country": "flag: Guinea",
+   "CountryCode": "GN, flag",
+   "unicode": "1F1EC-1F1F3"
+ },
+ {
+   "Country": "flag: Guadeloupe",
+   "CountryCode": "GP, flag",
+   "unicode": "1F1EC-1F1F5"
+ },
+ {
+   "Country": "flag: Equatorial Guinea",
+   "CountryCode": "GQ, flag",
+   "unicode": "1F1EC-1F1F6"
+ },
+ {
+   "Country": "flag: Greece",
+   "CountryCode": "GR, flag",
+   "unicode": "1F1EC-1F1F7"
+ },
+ {
+   "Country": "flag: South Georgia & South Sandwich Islands",
+   "CountryCode": "GS, flag",
+   "unicode": "1F1EC-1F1F8"
+ },
+ {
+   "Country": "flag: Guatemala",
+   "CountryCode": "GT, flag",
+   "unicode": "1F1EC-1F1F9"
+ },
+ {
+   "Country": "flag: Guam",
+   "CountryCode": "GU, flag",
+   "unicode": "1F1EC-1F1FA"
+ },
+ {
+   "Country": "flag: Guinea-Bissau",
+   "CountryCode": "GW, flag",
+   "unicode": "1F1EC-1F1FC"
+ },
+ {
+   "Country": "flag: Guyana",
+   "CountryCode": "GY, flag",
+   "unicode": "1F1EC-1F1FE"
+ },
+ {
+   "Country": "flag: Hong Kong SAR China",
+   "CountryCode": "HK, flag",
+   "unicode": "1F1ED-1F1F0"
+ },
+ {
+   "Country": "flag: Heard & McDonald Islands",
+   "CountryCode": "HM, flag",
+   "unicode": "1F1ED-1F1F2"
+ },
+ {
+   "Country": "flag: Honduras",
+   "CountryCode": "HN, flag",
+   "unicode": "1F1ED-1F1F3"
+ },
+ {
+   "Country": "flag: Croatia",
+   "CountryCode": "HR, flag",
+   "unicode": "1F1ED-1F1F7"
+ },
+ {
+   "Country": "flag: Haiti",
+   "CountryCode": "HT, flag",
+   "unicode": "1F1ED-1F1F9"
+ },
+ {
+   "Country": "flag: Hungary",
+   "CountryCode": "HU, flag",
+   "unicode": "1F1ED-1F1FA"
+ },
+ {
+   "Country": "flag: Canary Islands",
+   "CountryCode": "IC, flag",
+   "unicode": "1F1EE-1F1E8"
+ },
+ {
+   "Country": "flag: Indonesia",
+   "CountryCode": "ID, flag",
+   "unicode": "1F1EE-1F1E9"
+ },
+ {
+   "Country": "flag: Ireland",
+   "CountryCode": "IE, flag",
+   "unicode": "1F1EE-1F1EA"
+ },
+ {
+   "Country": "flag: Israel",
+   "CountryCode": "IL, flag",
+   "unicode": "1F1EE-1F1F1"
+ },
+ {
+   "Country": "flag: Isle of Man",
+   "CountryCode": "IM, flag",
+   "unicode": "1F1EE-1F1F2"
+ },
+ {
+   "Country": "flag: India",
+   "CountryCode": "IN, flag",
+   "unicode": "1F1EE-1F1F3"
+ },
+ {
+   "Country": "flag: British Indian Ocean Territory",
+   "CountryCode": "IO, flag",
+   "unicode": "1F1EE-1F1F4"
+ },
+ {
+   "Country": "flag: Iraq",
+   "CountryCode": "IQ, flag",
+   "unicode": "1F1EE-1F1F6"
+ },
+ {
+   "Country": "flag: Iran",
+   "CountryCode": "IR, flag",
+   "unicode": "1F1EE-1F1F7"
+ },
+ {
+   "Country": "flag: Iceland",
+   "CountryCode": "IS, flag",
+   "unicode": "1F1EE-1F1F8"
+ },
+ {
+   "Country": "flag: Italy",
+   "CountryCode": "IT, flag",
+   "unicode": "1F1EE-1F1F9"
+ },
+ {
+   "Country": "flag: Jersey",
+   "CountryCode": "JE, flag",
+   "unicode": "1F1EF-1F1EA"
+ },
+ {
+   "Country": "flag: Jamaica",
+   "CountryCode": "JM, flag",
+   "unicode": "1F1EF-1F1F2"
+ },
+ {
+   "Country": "flag: Jordan",
+   "CountryCode": "JO, flag",
+   "unicode": "1F1EF-1F1F4"
+ },
+ {
+   "Country": "flag: Japan",
+   "CountryCode": "JP, flag",
+   "unicode": "1F1EF-1F1F5"
+ },
+ {
+   "Country": "flag: Kenya",
+   "CountryCode": "KE, flag",
+   "unicode": "1F1F0-1F1EA"
+ },
+ {
+   "Country": "flag: Kyrgyzstan",
+   "CountryCode": "KG, flag",
+   "unicode": "1F1F0-1F1EC"
+ },
+ {
+   "Country": "flag: Cambodia",
+   "CountryCode": "KH, flag",
+   "unicode": "1F1F0-1F1ED"
+ },
+ {
+   "Country": "flag: Kiribati",
+   "CountryCode": "KI, flag",
+   "unicode": "1F1F0-1F1EE"
+ },
+ {
+   "Country": "flag: Comoros",
+   "CountryCode": "KM, flag",
+   "unicode": "1F1F0-1F1F2"
+ },
+ {
+   "Country": "flag: St. Kitts & Nevis",
+   "CountryCode": "KN, flag",
+   "unicode": "1F1F0-1F1F3"
+ },
+ {
+   "Country": "flag: North Korea",
+   "CountryCode": "KP, flag",
+   "unicode": "1F1F0-1F1F5"
+ },
+ {
+   "Country": "flag: South Korea",
+   "CountryCode": "KR, flag",
+   "unicode": "1F1F0-1F1F7"
+ },
+ {
+   "Country": "flag: Kuwait",
+   "CountryCode": "KW, flag",
+   "unicode": "1F1F0-1F1FC"
+ },
+ {
+   "Country": "flag: Cayman Islands",
+   "CountryCode": "KY, flag",
+   "unicode": "1F1F0-1F1FE"
+ },
+ {
+   "Country": "flag: Kazakhstan",
+   "CountryCode": "KZ, flag",
+   "unicode": "1F1F0-1F1FF"
+ },
+ {
+   "Country": "flag: Laos",
+   "CountryCode": "LA, flag",
+   "unicode": "1F1F1-1F1E6"
+ },
+ {
+   "Country": "flag: Lebanon",
+   "CountryCode": "LB, flag",
+   "unicode": "1F1F1-1F1E7"
+ },
+ {
+   "Country": "flag: St. Lucia",
+   "CountryCode": "LC, flag",
+   "unicode": "1F1F1-1F1E8"
+ },
+ {
+   "Country": "flag: Liechtenstein",
+   "CountryCode": "LI, flag",
+   "unicode": "1F1F1-1F1EE"
+ },
+ {
+   "Country": "flag: Sri Lanka",
+   "CountryCode": "LK, flag",
+   "unicode": "1F1F1-1F1F0"
+ },
+ {
+   "Country": "flag: Liberia",
+   "CountryCode": "LR, flag",
+   "unicode": "1F1F1-1F1F7"
+ },
+ {
+   "Country": "flag: Lesotho",
+   "CountryCode": "LS, flag",
+   "unicode": "1F1F1-1F1F8"
+ },
+ {
+   "Country": "flag: Lithuania",
+   "CountryCode": "LT, flag",
+   "unicode": "1F1F1-1F1F9"
+ },
+ {
+   "Country": "flag: Luxembourg",
+   "CountryCode": "LU, flag",
+   "unicode": "1F1F1-1F1FA"
+ },
+ {
+   "Country": "flag: Latvia",
+   "CountryCode": "LV, flag",
+   "unicode": "1F1F1-1F1FB"
+ },
+ {
+   "Country": "flag: Libya",
+   "CountryCode": "LY, flag",
+   "unicode": "1F1F1-1F1FE"
+ },
+ {
+   "Country": "flag: Morocco",
+   "CountryCode": "MA, flag",
+   "unicode": "1F1F2-1F1E6"
+ },
+ {
+   "Country": "flag: Monaco",
+   "CountryCode": "MC, flag",
+   "unicode": "1F1F2-1F1E8"
+ },
+ {
+   "Country": "flag: Moldova",
+   "CountryCode": "MD, flag",
+   "unicode": "1F1F2-1F1E9"
+ },
+ {
+   "Country": "flag: Montenegro",
+   "CountryCode": "ME, flag",
+   "unicode": "1F1F2-1F1EA"
+ },
+ {
+   "Country": "flag: St. Martin",
+   "CountryCode": "MF, flag",
+   "unicode": "1F1F2-1F1EB"
+ },
+ {
+   "Country": "flag: Madagascar",
+   "CountryCode": "MG, flag",
+   "unicode": "1F1F2-1F1EC"
+ },
+ {
+   "Country": "flag: Marshall Islands",
+   "CountryCode": "MH, flag",
+   "unicode": "1F1F2-1F1ED"
+ },
+ {
+   "Country": "flag: North Macedonia",
+   "CountryCode": "MK, flag",
+   "unicode": "1F1F2-1F1F0"
+ },
+ {
+   "Country": "flag: Mali",
+   "CountryCode": "ML, flag",
+   "unicode": "1F1F2-1F1F1"
+ },
+ {
+   "Country": "flag: Myanmar (Burma)",
+   "CountryCode": "MM, flag",
+   "unicode": "1F1F2-1F1F2"
+ },
+ {
+   "Country": "flag: Mongolia",
+   "CountryCode": "MN, flag",
+   "unicode": "1F1F2-1F1F3"
+ },
+ {
+   "Country": "flag: Macao SAR China",
+   "CountryCode": "MO, flag",
+   "unicode": "1F1F2-1F1F4"
+ },
+ {
+   "Country": "flag: Northern Mariana Islands",
+   "CountryCode": "MP, flag",
+   "unicode": "1F1F2-1F1F5"
+ },
+ {
+   "Country": "flag: Martinique",
+   "CountryCode": "MQ, flag",
+   "unicode": "1F1F2-1F1F6"
+ },
+ {
+   "Country": "flag: Mauritania",
+   "CountryCode": "MR, flag",
+   "unicode": "1F1F2-1F1F7"
+ },
+ {
+   "Country": "flag: Montserrat",
+   "CountryCode": "MS, flag",
+   "unicode": "1F1F2-1F1F8"
+ },
+ {
+   "Country": "flag: Malta",
+   "CountryCode": "MT, flag",
+   "unicode": "1F1F2-1F1F9"
+ },
+ {
+   "Country": "flag: Mauritius",
+   "CountryCode": "MU, flag",
+   "unicode": "1F1F2-1F1FA"
+ },
+ {
+   "Country": "flag: Maldives",
+   "CountryCode": "MV, flag",
+   "unicode": "1F1F2-1F1FB"
+ },
+ {
+   "Country": "flag: Malawi",
+   "CountryCode": "MW, flag",
+   "unicode": "1F1F2-1F1FC"
+ },
+ {
+   "Country": "flag: Mexico",
+   "CountryCode": "MX, flag",
+   "unicode": "1F1F2-1F1FD"
+ },
+ {
+   "Country": "flag: Malaysia",
+   "CountryCode": "MY, flag",
+   "unicode": "1F1F2-1F1FE"
+ },
+ {
+   "Country": "flag: Mozambique",
+   "CountryCode": "MZ, flag",
+   "unicode": "1F1F2-1F1FF"
+ },
+ {
+   "Country": "flag: Namibia",
+   "CountryCode": "NA, flag",
+   "unicode": "1F1F3-1F1E6"
+ },
+ {
+   "Country": "flag: New Caledonia",
+   "CountryCode": "NC, flag",
+   "unicode": "1F1F3-1F1E8"
+ },
+ {
+   "Country": "flag: Niger",
+   "CountryCode": "NE, flag",
+   "unicode": "1F1F3-1F1EA"
+ },
+ {
+   "Country": "flag: Norfolk Island",
+   "CountryCode": "NF, flag",
+   "unicode": "1F1F3-1F1EB"
+ },
+ {
+   "Country": "flag: Nigeria",
+   "CountryCode": "NG, flag",
+   "unicode": "1F1F3-1F1EC"
+ },
+ {
+   "Country": "flag: Nicaragua",
+   "CountryCode": "NI, flag",
+   "unicode": "1F1F3-1F1EE"
+ },
+ {
+   "Country": "flag: Netherlands",
+   "CountryCode": "NL, flag",
+   "unicode": "1F1F3-1F1F1"
+ },
+ {
+   "Country": "flag: Norway",
+   "CountryCode": "NO, flag",
+   "unicode": "1F1F3-1F1F4"
+ },
+ {
+   "Country": "flag: Nepal",
+   "CountryCode": "NP, flag",
+   "unicode": "1F1F3-1F1F5"
+ },
+ {
+   "Country": "flag: Nauru",
+   "CountryCode": "NR, flag",
+   "unicode": "1F1F3-1F1F7"
+ },
+ {
+   "Country": "flag: Niue",
+   "CountryCode": "NU, flag",
+   "unicode": "1F1F3-1F1FA"
+ },
+ {
+   "Country": "flag: New Zealand",
+   "CountryCode": "NZ, flag",
+   "unicode": "1F1F3-1F1FF"
+ },
+ {
+   "Country": "flag: Oman",
+   "CountryCode": "OM, flag",
+   "unicode": "1F1F4-1F1F2"
+ },
+ {
+   "Country": "flag: Panama",
+   "CountryCode": "PA, flag",
+   "unicode": "1F1F5-1F1E6"
+ },
+ {
+   "Country": "flag: Peru",
+   "CountryCode": "PE, flag",
+   "unicode": "1F1F5-1F1EA"
+ },
+ {
+   "Country": "flag: French Polynesia",
+   "CountryCode": "PF, flag",
+   "unicode": "1F1F5-1F1EB"
+ },
+ {
+   "Country": "flag: Papua New Guinea",
+   "CountryCode": "PG, flag",
+   "unicode": "1F1F5-1F1EC"
+ },
+ {
+   "Country": "flag: Philippines",
+   "CountryCode": "PH, flag",
+   "unicode": "1F1F5-1F1ED"
+ },
+ {
+   "Country": "flag: Pakistan",
+   "CountryCode": "PK, flag",
+   "unicode": "1F1F5-1F1F0"
+ },
+ {
+   "Country": "flag: Poland",
+   "CountryCode": "PL, flag",
+   "unicode": "1F1F5-1F1F1"
+ },
+ {
+   "Country": "flag: St. Pierre & Miquelon",
+   "CountryCode": "PM, flag",
+   "unicode": "1F1F5-1F1F2"
+ },
+ {
+   "Country": "flag: Pitcairn Islands",
+   "CountryCode": "PN, flag",
+   "unicode": "1F1F5-1F1F3"
+ },
+ {
+   "Country": "flag: Puerto Rico",
+   "CountryCode": "PR, flag",
+   "unicode": "1F1F5-1F1F7"
+ },
+ {
+   "Country": "flag: Palestinian Territories",
+   "CountryCode": "PS, flag",
+   "unicode": "1F1F5-1F1F8"
+ },
+ {
+   "Country": "flag: Portugal",
+   "CountryCode": "PT, flag",
+   "unicode": "1F1F5-1F1F9"
+ },
+ {
+   "Country": "flag: Palau",
+   "CountryCode": "PW, flag",
+   "unicode": "1F1F5-1F1FC"
+ },
+ {
+   "Country": "flag: Paraguay",
+   "CountryCode": "PY, flag",
+   "unicode": "1F1F5-1F1FE"
+ },
+ {
+   "Country": "flag: Qatar",
+   "CountryCode": "QA, flag",
+   "unicode": "1F1F6-1F1E6"
+ },
+ {
+   "Country": "flag: Réunion",
+   "CountryCode": "RE, flag",
+   "unicode": "1F1F7-1F1EA"
+ },
+ {
+   "Country": "flag: Romania",
+   "CountryCode": "RO, flag",
+   "unicode": "1F1F7-1F1F4"
+ },
+ {
+   "Country": "flag: Serbia",
+   "CountryCode": "RS, flag",
+   "unicode": "1F1F7-1F1F8"
+ },
+ {
+   "Country": "flag: Russia",
+   "CountryCode": "RU, flag",
+   "unicode": "1F1F7-1F1FA"
+ },
+ {
+   "Country": "flag: Rwanda",
+   "CountryCode": "RW, flag",
+   "unicode": "1F1F7-1F1FC"
+ },
+ {
+   "Country": "flag: Saudi Arabia",
+   "CountryCode": "SA, flag",
+   "unicode": "1F1F8-1F1E6"
+ },
+ {
+   "Country": "flag: Solomon Islands",
+   "CountryCode": "SB, flag",
+   "unicode": "1F1F8-1F1E7"
+ },
+ {
+   "Country": "flag: Seychelles",
+   "CountryCode": "SC, flag",
+   "unicode": "1F1F8-1F1E8"
+ },
+ {
+   "Country": "flag: Sudan",
+   "CountryCode": "SD, flag",
+   "unicode": "1F1F8-1F1E9"
+ },
+ {
+   "Country": "flag: Sweden",
+   "CountryCode": "SE, flag",
+   "unicode": "1F1F8-1F1EA"
+ },
+ {
+   "Country": "flag: Singapore",
+   "CountryCode": "SG, flag",
+   "unicode": "1F1F8-1F1EC"
+ },
+ {
+   "Country": "flag: St. Helena",
+   "CountryCode": "SH, flag",
+   "unicode": "1F1F8-1F1ED"
+ },
+ {
+   "Country": "flag: Slovenia",
+   "CountryCode": "SI, flag",
+   "unicode": "1F1F8-1F1EE"
+ },
+ {
+   "Country": "flag: Svalbard & Jan Mayen",
+   "CountryCode": "SJ, flag",
+   "unicode": "1F1F8-1F1EF"
+ },
+ {
+   "Country": "flag: Slovakia",
+   "CountryCode": "SK, flag",
+   "unicode": "1F1F8-1F1F0"
+ },
+ {
+   "Country": "flag: Sierra Leone",
+   "CountryCode": "SL, flag",
+   "unicode": "1F1F8-1F1F1"
+ },
+ {
+   "Country": "flag: San Marino",
+   "CountryCode": "SM, flag",
+   "unicode": "1F1F8-1F1F2"
+ },
+ {
+   "Country": "flag: Senegal",
+   "CountryCode": "SN, flag",
+   "unicode": "1F1F8-1F1F3"
+ },
+ {
+   "Country": "flag: Somalia",
+   "CountryCode": "SO, flag",
+   "unicode": "1F1F8-1F1F4"
+ },
+ {
+   "Country": "flag: Suriname",
+   "CountryCode": "SR, flag",
+   "unicode": "1F1F8-1F1F7"
+ },
+ {
+   "Country": "flag: South Sudan",
+   "CountryCode": "SS, flag",
+   "unicode": "1F1F8-1F1F8"
+ },
+ {
+   "Country": "flag: São Tomé & Príncipe",
+   "CountryCode": "ST, flag",
+   "unicode": "1F1F8-1F1F9"
+ },
+ {
+   "Country": "flag: El Salvador",
+   "CountryCode": "SV, flag",
+   "unicode": "1F1F8-1F1FB"
+ },
+ {
+   "Country": "flag: Sint Maarten",
+   "CountryCode": "SX, flag",
+   "unicode": "1F1F8-1F1FD"
+ },
+ {
+   "Country": "flag: Syria",
+   "CountryCode": "SY, flag",
+   "unicode": "1F1F8-1F1FE"
+ },
+ {
+   "Country": "flag: Eswatini",
+   "CountryCode": "SZ, flag",
+   "unicode": "1F1F8-1F1FF"
+ },
+ {
+   "Country": "flag: Tristan da Cunha",
+   "CountryCode": "TA, flag",
+   "unicode": "1F1F9-1F1E6"
+ },
+ {
+   "Country": "flag: Turks & Caicos Islands",
+   "CountryCode": "TC, flag",
+   "unicode": "1F1F9-1F1E8"
+ },
+ {
+   "Country": "flag: Chad",
+   "CountryCode": "TD, flag",
+   "unicode": "1F1F9-1F1E9"
+ },
+ {
+   "Country": "flag: French Southern Territories",
+   "CountryCode": "TF, flag",
+   "unicode": "1F1F9-1F1EB"
+ },
+ {
+   "Country": "flag: Togo",
+   "CountryCode": "TG, flag",
+   "unicode": "1F1F9-1F1EC"
+ },
+ {
+   "Country": "flag: Thailand",
+   "CountryCode": "TH, flag",
+   "unicode": "1F1F9-1F1ED"
+ },
+ {
+   "Country": "flag: Tajikistan",
+   "CountryCode": "TJ, flag",
+   "unicode": "1F1F9-1F1EF"
+ },
+ {
+   "Country": "flag: Tokelau",
+   "CountryCode": "TK, flag",
+   "unicode": "1F1F9-1F1F0"
+ },
+ {
+   "Country": "flag: Timor-Leste",
+   "CountryCode": "TL, flag",
+   "unicode": "1F1F9-1F1F1"
+ },
+ {
+   "Country": "flag: Turkmenistan",
+   "CountryCode": "TM, flag",
+   "unicode": "1F1F9-1F1F2"
+ },
+ {
+   "Country": "flag: Tunisia",
+   "CountryCode": "TN, flag",
+   "unicode": "1F1F9-1F1F3"
+ },
+ {
+   "Country": "flag: Tonga",
+   "CountryCode": "TO, flag",
+   "unicode": "1F1F9-1F1F4"
+ },
+ {
+   "Country": "flag: Turkey",
+   "CountryCode": "TR, flag",
+   "unicode": "1F1F9-1F1F7"
+ },
+ {
+   "Country": "flag: Trinidad & Tobago",
+   "CountryCode": "TT, flag",
+   "unicode": "1F1F9-1F1F9"
+ },
+ {
+   "Country": "flag: Tuvalu",
+   "CountryCode": "TV, flag",
+   "unicode": "1F1F9-1F1FB"
+ },
+ {
+   "Country": "flag: Taiwan",
+   "CountryCode": "TW, flag",
+   "unicode": "1F1F9-1F1FC"
+ },
+ {
+   "Country": "flag: Tanzania",
+   "CountryCode": "TZ, flag",
+   "unicode": "1F1F9-1F1FF"
+ },
+ {
+   "Country": "flag: Ukraine",
+   "CountryCode": "UA, flag",
+   "unicode": "1F1FA-1F1E6"
+ },
+ {
+   "Country": "flag: Uganda",
+   "CountryCode": "UG, flag",
+   "unicode": "1F1FA-1F1EC"
+ },
+ {
+   "Country": "flag: U.S. Outlying Islands",
+   "CountryCode": "UM, flag",
+   "unicode": "1F1FA-1F1F2"
+ },
+ {
+   "Country": "flag: United Nations",
+   "CountryCode": "UN, flag",
+   "unicode": "1F1FA-1F1F3"
+ },
+ {
+   "Country": "flag: United States",
+   "CountryCode": "US, flag",
+   "unicode": "1F1FA-1F1F8"
+ },
+ {
+   "Country": "flag: Uruguay",
+   "CountryCode": "UY, flag",
+   "unicode": "1F1FA-1F1FE"
+ },
+ {
+   "Country": "flag: Uzbekistan",
+   "CountryCode": "UZ, flag",
+   "unicode": "1F1FA-1F1FF"
+ },
+ {
+   "Country": "flag: Vatican City",
+   "CountryCode": "VA, flag",
+   "unicode": "1F1FB-1F1E6"
+ },
+ {
+   "Country": "flag: St. Vincent & Grenadines",
+   "CountryCode": "VC, flag",
+   "unicode": "1F1FB-1F1E8"
+ },
+ {
+   "Country": "flag: Venezuela",
+   "CountryCode": "VE, flag",
+   "unicode": "1F1FB-1F1EA"
+ },
+ {
+   "Country": "flag: British Virgin Islands",
+   "CountryCode": "VG, flag",
+   "unicode": "1F1FB-1F1EC"
+ },
+ {
+   "Country": "flag: U.S. Virgin Islands",
+   "CountryCode": "VI, flag",
+   "unicode": "1F1FB-1F1EE"
+ },
+ {
+   "Country": "flag: Vietnam",
+   "CountryCode": "VN, flag",
+   "unicode": "1F1FB-1F1F3"
+ },
+ {
+   "Country": "flag: Vanuatu",
+   "CountryCode": "VU, flag",
+   "unicode": "1F1FB-1F1FA"
+ },
+ {
+   "Country": "flag: Wallis & Futuna",
+   "CountryCode": "WF, flag",
+   "unicode": "1F1FC-1F1EB"
+ },
+ {
+   "Country": "flag: Samoa",
+   "CountryCode": "WS, flag",
+   "unicode": "1F1FC-1F1F8"
+ },
+ {
+   "Country": "flag: Kosovo",
+   "CountryCode": "XK, flag",
+   "unicode": "1F1FD-1F1F0"
+ },
+ {
+   "Country": "flag: Yemen",
+   "CountryCode": "YE, flag",
+   "unicode": "1F1FE-1F1EA"
+ },
+ {
+   "Country": "flag: Mayotte",
+   "CountryCode": "YT, flag",
+   "unicode": "1F1FE-1F1F9"
+ },
+ {
+   "Country": "flag: South Africa",
+   "CountryCode": "ZA, flag",
+   "unicode": "1F1FF-1F1E6"
+ },
+ {
+   "Country": "flag: Zambia",
+   "CountryCode": "ZM, flag",
+   "unicode": "1F1FF-1F1F2"
+ },
+ {
+   "Country": "flag: Zimbabwe",
+   "CountryCode": "ZW, flag",
+   "unicode": "1F1FF-1F1FC"
+ }
+]

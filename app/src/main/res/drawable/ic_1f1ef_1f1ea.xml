@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+
+    <path
+        android:fillColor="#fff"
+        android:pathData="M 5 17 H 67 V 55 H 5 V 17 Z" />
+    <path
+        android:fillColor="#d22f27"
+        android:pathData="M 67 20 L 67 17 L 63 17 L 5 52 L 5 55 L 9 55 Z" />
+    <path
+        android:fillColor="#d22f27"
+        android:pathData="M 5 20 L 5 17 L 9 17 L 67 52 L 67 55 L 63 55 Z" />
+    <path
+        android:fillColor="#d22f27"
+        android:pathData="M38.74 22.34s0.2958 0.5821 0.2996 2.759c0.0038 2.177-0.9878 4.162-3.017
+5.113-2.03-0.9514-3.071-2.972-3.071-5.113 0-2.141 0.3002-2.759 0.3002-2.759z"
+        android:strokeWidth="1.522"
+        android:strokeColor="#d22f27"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#fcea2b"
+        android:fillType="evenOdd"
+        android:pathData="M32.66 19.96h6.683l-0.5663 1.193h-5.604z"
+        android:strokeWidth="0.9856"
+        android:strokeColor="#fcea2b"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="10" />
+    <path
+        android:fillColor="#fcea2b"
+        android:fillType="evenOdd"
+        android:pathData="M 33.2766 22.72 L 38.7214 22.72 Q 38.738 22.72 38.738 22.7366 L 38.738 23.5716 Q 38.738 23.5882 38.7214 23.5882 L 33.2766 23.5882 Q 33.26 23.5882 33.26 23.5716 L 33.26 22.7366 Q 33.26 22.72 33.2766 22.72 Z"
+        android:strokeWidth="0.6318"
+        android:strokeColor="#fcea2b"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="10" />
+    <path
+        android:fillColor="#fcea2b"
+        android:fillType="evenOdd"
+        android:pathData="M 33.2766 25.08 L 38.7214 25.08 Q 38.738 25.08 38.738 25.0966 L 38.738 25.9316 Q 38.738 25.9482 38.7214 25.9482 L 33.2766 25.9482 Q 33.26 25.9482 33.26 25.9316 L 33.26 25.0966 Q 33.26 25.08 33.2766 25.08 Z"
+        android:strokeWidth="0.6318"
+        android:strokeColor="#fcea2b"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="10" />
+    <path
+        android:fillColor="#fcea2b"
+        android:fillType="evenOdd"
+        android:pathData="M 33.7537 27.39 L 38.2523 27.39 Q 38.266 27.39 38.266 27.4037 L 38.266 28.0936 Q 38.266 28.1073 38.2523 28.1073 L 33.7537 28.1073 Q 33.74 28.1073 33.74 28.0936 L 33.74 27.4037 Q 33.74 27.39 33.7537 27.39 Z"
+        android:strokeWidth="0.522"
+        android:strokeColor="#fcea2b"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="10" />
+    <path
+        android:pathData="M 5 17 H 67 V 55 H 5 V 17 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

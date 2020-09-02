@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.abd4ll4h.covid19hope"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:7:5-37:19
+14        android:allowBackup="true"
+14-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\ATheFourth\.gradle\caches\transforms-2\files-2.1\e9c0508cb31d46903df9f1d4707715b9\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity android:name="com.abd4ll4h.covid19hope.BasicWidgetConfiger" >
+23-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:15:9-19:20
+23-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:15:19-54
+24            <intent-filter>
+24-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:16:13-18:29
+25                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+25-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:17:17-87
+25-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:17:25-84
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="com.abd4ll4h.covid19hope.MainActivity" >
+28-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:20:9-26:20
+28-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:20:19-47
+29            <intent-filter>
+29-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:21:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:22:17-69
+30-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:22:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:24:17-77
+32-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <receiver android:name="com.abd4ll4h.covid19hope.BasicWidget" >
+36-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:28:9-36:20
+36-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:28:19-46
+37            <intent-filter>
+37-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:29:13-31:29
+38                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+38-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:30:17-84
+38-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:30:25-81
+39            </intent-filter>
+40
+41            <meta-data
+41-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:33:13-35:60
+42                android:name="android.appwidget.provider"
+42-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:34:17-58
+43                android:resource="@xml/basic_widget_xml" />
+43-->C:\Users\ATheFourth\AndroidStudioProjects\covid\covid19Hope\app\src\main\AndroidManifest.xml:35:17-57
+44        </receiver>
+45
+46        <service
+46-->[androidx.room:room-runtime:2.2.5] C:\Users\ATheFourth\.gradle\caches\transforms-2\files-2.1\d38c7dfa1bb8cdf7213d5f198ffcfdb1\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+47            android:name="androidx.room.MultiInstanceInvalidationService"
+47-->[androidx.room:room-runtime:2.2.5] C:\Users\ATheFourth\.gradle\caches\transforms-2\files-2.1\d38c7dfa1bb8cdf7213d5f198ffcfdb1\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+48            android:directBootAware="true"
+48-->[androidx.room:room-runtime:2.2.5] C:\Users\ATheFourth\.gradle\caches\transforms-2\files-2.1\d38c7dfa1bb8cdf7213d5f198ffcfdb1\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+49            android:exported="false" />
+49-->[androidx.room:room-runtime:2.2.5] C:\Users\ATheFourth\.gradle\caches\transforms-2\files-2.1\d38c7dfa1bb8cdf7213d5f198ffcfdb1\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+50
+51        <provider
+51-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ATheFourth\.gradle\caches\transforms-2\files-2.1\ea877ea7d4b5e0c24568bcb8dba1f546\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+52            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ATheFourth\.gradle\caches\transforms-2\files-2.1\ea877ea7d4b5e0c24568bcb8dba1f546\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+53            android:authorities="com.abd4ll4h.covid19hope.lifecycle-process"
+53-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ATheFourth\.gradle\caches\transforms-2\files-2.1\ea877ea7d4b5e0c24568bcb8dba1f546\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+54            android:exported="false"
+54-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ATheFourth\.gradle\caches\transforms-2\files-2.1\ea877ea7d4b5e0c24568bcb8dba1f546\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+55            android:multiprocess="true" />
+55-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ATheFourth\.gradle\caches\transforms-2\files-2.1\ea877ea7d4b5e0c24568bcb8dba1f546\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+56    </application>
+57
+58</manifest>

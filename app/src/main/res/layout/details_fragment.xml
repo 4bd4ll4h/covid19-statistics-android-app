@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+        <variable
+            name="statu"
+            type="com.abd4ll4h.covid19hope.DetailsViewModel" />
+    </data>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Details">
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/alert_light_frame"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imojiTotalRecovered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_1f525"
+                    android:contentDescription="TotalRecovered"
+
+                    android:src="@drawable/ic_2764_healed" />
+
+                <TextView
+                    android:id="@+id/numNewConfirmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imojiTotalRecovered"
+                    android:layout_centerHorizontal="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    app:healthNumberConverter="@{statu.countr.newRecovered}"
+                    tools:text="20,222"/>
+                <TextView
+                    android:id="@+id/desNewRecovered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/numNewConfirmed"
+                    android:layout_centerHorizontal="true"
+                    android:text="New Recovered"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/alert_light_frame"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imojiconformed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="Total Confirmed"
+                    android:src="@drawable/ic_2764_healed" />
+
+                <TextView
+                    android:id="@+id/numconfirmd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imojiconformed"
+                    android:layout_centerHorizontal="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    app:healthNumberConverter="@{statu.countr.totalRecovered}"
+                    tools:text="20,222"/>
+                <TextView
+                    android:id="@+id/desRecovered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/numconfirmd"
+                    android:layout_centerHorizontal="true"
+                    android:text="Total Recovered"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/alert_light_frame"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imojiConfirmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_1f494_break"
+                    android:contentDescription="New Confirmed"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_1f637_conform" />
+
+                <TextView
+                    android:id="@+id/numConfirmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imojiConfirmed"
+                    android:layout_centerHorizontal="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    app:healthNumberConverter="@{statu.countr.newConfirmed}"
+                    tools:text="20,222"/>
+                <TextView
+                    android:id="@+id/desNewConfirmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/numConfirmed"
+                    android:layout_centerHorizontal="true"
+                    android:text="New Confirmed"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/alert_light_frame"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imojiTotalConfirmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="Total Confirmed"
+                    android:padding="10dp"
+
+                    android:src="@drawable/ic_1f637_conform" />
+
+                <TextView
+                    android:id="@+id/numTotalConfirmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imojiTotalConfirmed"
+                    android:layout_centerHorizontal="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    app:healthNumberConverter="@{statu.countr.totalConfirmed}"
+                    tools:text="20,222"/>
+                <TextView
+                    android:id="@+id/desConfirmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/numTotalConfirmed"
+                    android:layout_centerHorizontal="true"
+                    android:text="Total Confirmed"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/alert_light_frame"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imojiTotalDeaths"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_1f494_break"
+                    android:contentDescription="Total Deaths"
+                    android:src="@drawable/ic_1f54a_death" />
+
+                <TextView
+                    android:id="@+id/numTotalDeaths"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imojiTotalDeaths"
+                    android:layout_centerHorizontal="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    app:healthNumberConverter="@{statu.countr.newDeaths}"
+                    tools:text="20,222"/>
+                <TextView
+                    android:id="@+id/desNewDeaths"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/numTotalDeaths"
+                    android:layout_centerHorizontal="true"
+                    android:text="New Deaths"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/alert_light_frame"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imoji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_death_grave"
+                    android:backgroundTint="@android:color/tertiary_text_light"
+                    android:contentDescription="New Deaths"
+
+                    android:src="@drawable/ic_1f54a_death" />
+
+                <TextView
+                    android:id="@+id/num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imoji"
+                    android:layout_centerHorizontal="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    app:healthNumberConverter="@{statu.countr.totalDeaths}"
+                    tools:text="20,222"/>
+                <TextView
+                    android:id="@+id/desDeaths"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/num"
+                    android:layout_centerHorizontal="true"
+                    android:text="Total Deaths"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp"
+                app:dateFormat="@{statu.countr.date}"
+                tools:text="Last update 30 jun 2020"/>
+        </GridLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</layout>

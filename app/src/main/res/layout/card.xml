@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+
+
+    <data>
+        <variable
+            name="item"
+            type="com.abd4ll4h.covid19hope.Status" />
+    </data>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/picture_frame"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:layout_insetEdge="bottom">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        app:loadFlag="@{item.id}"
+                        tool:src="@drawable/ic_1f1e6_1f1eb" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="3dp"
+                        android:layout_toStartOf="@id/spinner"
+                        android:layout_toEndOf="@+id/img"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:scrollHorizontally="true"
+                        android:text="@{item.country}"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        tool:text="Sudanxcgdxvxvxxcxvsdfsdfgdfgerre" />
+
+                    <TextView
+                        android:id="@+id/spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="8dp"
+                        android:background="@android:drawable/picture_frame"
+                        android:gravity="end"
+                        android:text="Delete" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/conform"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_1f637_conform" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/conform"
+                            android:layout_centerHorizontal="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            app:covertNumber="@{item.TotalConfirmed}"
+                            tool:text="22K" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/healed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_2764_healed" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/healed"
+                            android:layout_centerHorizontal="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            app:covertNumber="@{item.TotalRecovered}"
+                            tool:text="22,345" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/death"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/ic_death_grave"
+                            android:backgroundTint="@android:color/darker_gray"
+                            android:src="@drawable/ic_1f54a_death" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/death"
+                            android:layout_centerHorizontal="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            app:covertNumber="@{item.TotalDeaths}"
+                            tool:text="1000" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:dateFormat="@{item.Date}"
+                    tool:text="Last update jun 5 2020"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

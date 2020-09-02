@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+   <data>
+
+      <variable
+          name="IsEmpty"
+          type="Boolean"/>
+      <variable
+          name="item"
+          type="com.abd4ll4h.covid19hope.ui.main.MainViewModel.Variable" />
+   </data>
+
+   <androidx.coordinatorlayout.widget.CoordinatorLayout
+       android:id="@+id/main"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+
+       android:background="@color/colorPrimaryDark">
+      <androidx.core.widget.NestedScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/globle"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="8dp"
+             android:layout_marginLeft="@dimen/spacing_large"
+             android:layout_marginRight="@dimen/spacing_large"
+             app:cardCornerRadius="5dp"
+             app:cardElevation="2dp"
+             app:layout_insetEdge="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/picture_frame"
+               android:orientation="vertical">
+
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="8dp"
+                   >
+
+                  <ImageView
+                      android:id="@+id/img"
+                      android:layout_width="35dp"
+                      android:layout_height="35dp"
+                      android:src="@drawable/ic_1f30d_africa_europe"
+                       />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerVertical="true"
+                      android:layout_marginStart="3dp"
+                      android:layout_toEndOf="@+id/img"
+                      android:ellipsize="end"
+                      android:gravity="center"
+                      android:maxLines="1"
+                      android:scrollHorizontally="true"
+                      android:text="Global"
+                      android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+               </RelativeLayout>
+
+               <GridLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="8dp"
+                   >
+
+                  <RelativeLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_row="0"
+                      android:layout_rowWeight="1"
+                      android:layout_column="0"
+                      android:layout_columnWeight="1"
+                      android:layout_gravity="fill"
+                      android:layout_margin="16dp"
+                      android:gravity="center"
+                      >
+
+                     <ImageView
+                         android:id="@+id/conform"
+                         android:layout_width="50dp"
+                         android:layout_height="50dp"
+                         android:layout_centerHorizontal="true"
+                         android:src="@drawable/ic_1f637_conform" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/conform"
+                         android:layout_centerHorizontal="true"
+                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                         app:covertNumber="@{item.global.totalConfirmed}"
+                         tool:text="22K" />
+
+                  </RelativeLayout>
+
+                  <RelativeLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_row="0"
+                      android:layout_rowWeight="1"
+                      android:layout_column="1"
+                      android:layout_columnWeight="1"
+                      android:layout_gravity="fill"
+                      android:gravity="center">
+
+                     <ImageView
+                         android:id="@+id/healed"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_centerHorizontal="true"
+                         android:src="@drawable/ic_2764_healed" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/healed"
+                         android:layout_centerHorizontal="true"
+                         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                         app:covertNumber="@{item.global.totalRecovered}"
+                         tool:text="22,345" />
+
+                  </RelativeLayout>
+
+                  <RelativeLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_row="0"
+                      android:layout_rowWeight="1"
+                      android:layout_column="2"
+                      android:layout_columnWeight="1"
+                      android:layout_gravity="fill"
+                      android:layout_margin="16dp"
+                      android:gravity="center"
+
+                      >
+
+                     <ImageView
+                         android:id="@+id/death"
+                         android:layout_width="50dp"
+                         android:layout_height="50dp"
+                         android:layout_centerHorizontal="true"
+                         android:src="@drawable/ic_1f54a_death" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/death"
+                         android:layout_centerHorizontal="true"
+                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                         app:covertNumber="@{item.global.totalDeaths}"
+                         tool:text="1000" />
+
+                  </RelativeLayout>
+
+               </GridLayout>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="8dp"
+                   app:dateFormat="@{item.global.date}"
+                   tool:text="Last update jun 5 2020"/>
+
+            </LinearLayout>
+
+
+         </androidx.cardview.widget.CardView>
+         <ListView
+             android:id="@+id/list"
+             android:layout_width="wrap_content"
+             android:layout_height="fill_parent"
+             android:layout_below="@id/globle"
+             android:layout_margin="8dp"
+             app:IsVisable="@{!IsEmpty}"
+             tool:listitem="@layout/card" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"
+             android:gravity="center"
+             android:text="no country added"
+             app:IsVisable="@{IsEmpty}"/>
+
+
+         <TextView
+             android:id="@+id/add"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/list"
+             android:layout_margin="8dp"
+             android:background="@drawable/shadow"
+             android:clickable="true"
+             android:drawableStart="@drawable/ic_add"
+             android:focusable="true"
+             android:gravity="center_vertical"
+             android:text="add Country"
+             android:textSize="30sp"
+             />
+
+      </RelativeLayout>
+      </androidx.core.widget.NestedScrollView>
+   </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

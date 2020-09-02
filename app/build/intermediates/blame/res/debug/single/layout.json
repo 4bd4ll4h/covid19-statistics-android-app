@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\countries_fragment.xml",
+        "source": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\src\\main\\res\\layout\\countries_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\details_fragment.xml",
+        "source": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\src\\main\\res\\layout\\details_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_fragment.xml",
+        "source": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\src\\main\\res\\layout\\main_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_basic_widget_configer.xml",
+        "source": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\src\\main\\res\\layout\\activity_basic_widget_configer.xml"
+    },
+    {
+        "merged": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\card.xml",
+        "source": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\src\\main\\res\\layout\\card.xml"
+    },
+    {
+        "merged": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\counteries_list_item.xml",
+        "source": "C:\\Users\\ATheFourth\\AndroidStudioProjects\\covid\\covid19Hope\\app\\src\\main\\res\\layout\\counteries_list_item.xml"
+    }
+]

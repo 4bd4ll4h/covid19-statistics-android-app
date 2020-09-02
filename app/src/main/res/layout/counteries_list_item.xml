@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="list"
+            type="com.abd4ll4h.covid19hope.Country" />
+
+    </data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/flagImg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                app:loadFlag="@{list.id}"
+                tool:src="@drawable/ic_1f1e6_1f1f8"/>
+            <TextView
+                android:id="@+id/countryname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@+id/flagImg"
+                android:text="@{list.country}"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                tool:text="Sudan"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countryname"
+                android:layout_toEndOf="@id/flagImg"
+                android:text="@{list.id}"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tool:text="SD"/>
+        </RelativeLayout>
+    </FrameLayout>
+</layout>

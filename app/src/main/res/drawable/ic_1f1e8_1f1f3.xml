@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+
+    <path
+        android:fillColor="#d22f27"
+        android:pathData="M 5 17 H 67 V 55 H 5 V 17 Z" />
+    <path
+        android:fillColor="#f1b31c"
+        android:pathData="M 24 32.25 C 24.9664983122 32.25 25.75 33.0335016878 25.75 34 C 25.75 34.9664983122 24.9664983122 35.75 24 35.75 C 23.0335016878 35.75 22.25 34.9664983122 22.25 34 C 22.25 33.0335016878 23.0335016878 32.25 24 32.25 Z" />
+    <path
+        android:fillColor="#f1b31c"
+        android:pathData="M 24 22.25 C 24.9664983122 22.25 25.75 23.0335016878 25.75 24 C 25.75 24.9664983122 24.9664983122 25.75 24 25.75 C 23.0335016878 25.75 22.25 24.9664983122 22.25 24 C 22.25 23.0335016878 23.0335016878 22.25 24 22.25 Z" />
+    <path
+        android:fillColor="#f1b31c"
+        android:pathData="M 28 29.25 C 28.9664983122 29.25 29.75 30.0335016878 29.75 31 C 29.75 31.9664983122 28.9664983122 32.75 28 32.75 C 27.0335016878 32.75 26.25 31.9664983122 26.25 31 C 26.25 30.0335016878 27.0335016878 29.25 28 29.25 Z" />
+    <path
+        android:fillColor="#f1b31c"
+        android:pathData="M 28 24.25 C 28.9664983122 24.25 29.75 25.0335016878 29.75 26 C 29.75 26.9664983122 28.9664983122 27.75 28 27.75 C 27.0335016878 27.75 26.25 26.9664983122 26.25 26 C 26.25 25.0335016878 27.0335016878 24.25 28 24.25 Z" />
+    <path
+        android:fillColor="#f1b31c"
+        android:pathData="M 13.528 32.445 L 16 24.445 L 18.473 32.445 L 12 27.5 L 20 27.5 L 13.528 32.445 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#f1b31c"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M 5 17 H 67 V 55 H 5 V 17 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+
+    <path
+        android:fillColor="#1e50a0"
+        android:pathData="M 5 17 H 67 V 55 H 5 V 17 Z" />
+    <path
+        android:fillColor="#f1b31c"
+        android:pathData="M 5 35 H 67 V 37 H 5 V 35 Z" />
+    <path
+        android:fillColor="#fff"
+        android:pathData="M 16.296 44.896 L 18 42.536 L 16.808 45.192 L 19.464 44 L 17.104 45.704 L 20 46 L 17.104 46.296 L 19.464 48 L 16.808 46.808 L 18 49.464 L 16.296 47.104 L 16 50 L 15.704 47.104 L 14 49.464 L 15.192 46.808 L 12.536 48 L 14.896 46.296 L 12 46 L 14.896 45.704 L 12.536 44 L 15.192 45.192 L 14 42.536 L 15.704 44.896 L 16 42 L 16.296 44.896 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#fff"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M 5 17 H 67 V 55 H 5 V 17 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

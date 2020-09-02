@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BasicWidgetConfiger">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/textWidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Choose a country : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse"/>
+
+        <ListView
+            android:id="@+id/counties_listWidget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            tools:listitem="@layout/counteries_list_item"
+            />
+    </LinearLayout>
+</layout>
